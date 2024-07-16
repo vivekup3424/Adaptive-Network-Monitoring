@@ -9,12 +9,6 @@
 # This uses dynamic tracing of kernel functions, and will need to be updated
 # to match kernel changes.
 #
-# Copyright 2016 Netflix, Inc.
-# Licensed under the Apache License, Version 2.0 (the "License")
-#
-# 19-Feb-2016   Brendan Gregg   Created this.
-# 15-Mar-2021   Suresh Kumar    Added LPORT option
-# 21-Dec-2021   Amro Hendawi    Added prometheus metrics exporter
 
 from __future__ import print_function
 from bcc import BPF
