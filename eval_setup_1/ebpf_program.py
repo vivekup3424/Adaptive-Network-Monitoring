@@ -8,13 +8,6 @@
 #
 # This uses dynamic tracing of user-level functions and registers, and may
 # need modifications to match your software and processor architecture.
-#
-# Copyright 2016 Netflix, Inc.
-# Licensed under the Apache License, Version 2.0 (the "License")
-#
-# 28-Jan-2016    Brendan Gregg   Created this.
-# 30-Mar-2016   Allan McAleavy updated for BPF_PERF_OUTPUT
-# 23-Dec-2021   Amro Hendawi    Modified for evaluation purposes
 
 from __future__ import print_function
 from bcc import BPF

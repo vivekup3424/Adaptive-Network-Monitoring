@@ -2,7 +2,7 @@
 
 # adjust loop end for quick tests. set it to 10 before final benchmark collection
 LOOP_END=100
-target_ip=192.168.178.91
+target_ip=192.168.0.102
 echo "host,latency"
 for _ in $(seq 1 $LOOP_END);
 do
